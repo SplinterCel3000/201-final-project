@@ -1,0 +1,51 @@
+body {
+  font-size: 20px;
+  text-align: center;
+  color: red;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.peter {
+  width: 400px;
+  height: 100px;
+  padding: 50px;
+  border: 20px solid white;
+  /* box-sizing: border-box; */
+  background-color:red ;
+  color: white;
+  align-content: vertical;
+};
+
+.brandon {
+  width: 400px;
+  height: 100px;
+  padding: 50px;
+  border: 20px solid white;
+  /* box-sizing: border-box; */
+  background-color:red ;
+  color: white;
+  align-content: vertical;
+};
+
+
+.shingo {
+  width: 400px;
+  height: 100px;
+  padding: 50px;
+  border: 20px solid white;
+  /* box-sizing: border-box; */
+  background-color:red ;
+  color: white;
+};
+
+.sam {
+  width: 400px;
+  height: 100px;
+  padding: 50px;
+  border: 20px solid white;
+  /* box-sizing: border-box; */
+  background-color:red ;
+  color: white;
+};
