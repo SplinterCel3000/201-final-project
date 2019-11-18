@@ -2,7 +2,6 @@
   display:inline-block;
   width: 100%;
 }
-
 #header-button{
   text-align: left;
   margin-top: 20px;
@@ -14,7 +13,6 @@
 #header-title {
   text-align: center;
 }
-
 #header-button {
 	box-shadow:inset 0px 39px 0px -24px #e67a73;
 	background-color:#e4685d;
@@ -36,4 +34,18 @@
 #header-button:active {
 	position:relative;
 	top:1px;
+}
+#restaurants-display{
+  width: 100%;
+  text-align: center;
+}
+#restaurant-mcdonalds {
+  height: 100px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+#restaurant-subway {
+  height: 100px;
+  margin-top: 50px;
+  margin-left: 50px;
 }
