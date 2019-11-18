@@ -1,0 +1,19 @@
+body {
+  font-size: 20px;
+  text-align: center;
+  align-content: center;
+  color: red;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+}
+
+.dev-content{
+  text-align: center;
+  position: relative;
+}
+
+p{
+  font-style: bold;
+}
+
