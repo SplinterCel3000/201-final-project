@@ -1,6 +1,3 @@
-#title-logo {
-  cursor: pointer;
-}
 #top-line{
   display:inline-block;
   width: 100%;
@@ -44,12 +41,12 @@
   width: 100%;
   text-align: center;
 }
-#restaurant-mcdonalds {
+#restaurant1 {
   height: 100px;
   margin-top: 50px;
   margin-right: 50px;
 }
-#restaurant-subway {
+#restaurant2{
   height: 100px;
   margin-top: 50px;
   margin-left: 50px;
