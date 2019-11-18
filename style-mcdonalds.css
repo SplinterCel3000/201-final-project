@@ -10,11 +10,6 @@
 #header-image {
   float:right;
 }
-#header-title {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(110, 109, 109);
-}
 #header-button {
 	box-shadow:inset 0px 39px 0px -24px #e67a73;
 	background-color:#e4685d;
@@ -26,8 +21,8 @@
 	font-family:Arial;
 	font-size:15px;
 	padding:6px 15px;
-	text-decoration:none;
-  text-shadow:0px 1px 0px #b23e35;
+	text-decoration: none;
+  text-shadow: 0px 1px 0px #b23e35;
   
 }
 #header-button:hover {
@@ -37,10 +32,22 @@
 	position:relative;
 	top:1px;
 }
+
 #square-article {
-  display: inline-block;
   text-align: center;
-  width: 400px;
-  height: 400px;
-  border: 1px solid black;
+  position: fixed;
+  left: 50%;
+  top: 60%;
+  height: 600px;
+  width: 600px;
+  margin-top: -300px;
+  margin-left: -300px;
+  
+  border: 1px solid rgb(110, 109, 109);
+  border-radius: 30px;
+  background-color: rgb(110, 109, 109);
+  opacity: 50%;
+}
+article, p {
+  font-family: Arial, Helvetica, sans-serif;
 }
