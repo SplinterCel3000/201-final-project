@@ -37,17 +37,3 @@
 	position:relative;
 	top:1px;
 }
-#restaurants-display{
-  width: 100%;
-  text-align: center;
-}
-#restaurant-mcdonalds {
-  height: 100px;
-  margin-top: 50px;
-  margin-right: 50px;
-}
-#restaurant-subway {
-  height: 100px;
-  margin-top: 50px;
-  margin-left: 50px;
-}
