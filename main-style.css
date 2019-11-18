@@ -2,19 +2,18 @@ h1{
     text-align: center;
 }
 
-/* #buttons{
-      display:inline-block
-      width:100%;
-        } */
+ #buttons{
+     opacity: 75%;
+        } 
 
 
- #FastFood{
+  #FastFood{
     font-size: large;
     margin-left: 50px;
     margin-right: 50px;
     text-align: left;
     float: left;
-    opacity: 75%;
+    
  }
 
  #TakeOut{
@@ -23,7 +22,7 @@ h1{
     margin-right: 50px;
      text-align: center;
     float: left;
-    opacity: 75%; 
+     
  }
 
  #DineIn{
@@ -31,14 +30,14 @@ h1{
     margin-left: 50px;
     margin-right: 50px;
     text-align: right;
-    /* float: right; */
-    opacity: 75%;
- }
+     float: right; 
+     
+ } 
 
- #Coffee{
+  #Coffee{
     font-size: large;
     margin-left: 50px;
     margin-right: 50px;
     text-align: center;
-    opacity: 75%;
- }
+    
+ } 
