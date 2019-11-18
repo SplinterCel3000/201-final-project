@@ -1,12 +1,11 @@
 h1{
     text-align: center;
-    font-size: 100px;
 }
 
-#buttons{
-      display:inline-block;
+/* #buttons{
+      display:inline-block
       width:100%;
-        }
+        } */
 
 
  #FastFood{
@@ -14,6 +13,7 @@ h1{
     margin-left: 50px;
     margin-right: 50px;
     text-align: left;
+    float: left;
  }
 
  #TakeOut{
@@ -21,18 +21,20 @@ h1{
     margin-left: 50px;
     margin-right: 50px;
     text-align: center;
+    float: left;
  }
 
  #DineIn{
     font-size: large;
-    margin-left: 50px;
-    margin-right: 50px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
     text-align: right;
+    /* float: right; */
  }
 
  #Coffee{
     font-size: large;
-    margin-left: 50px;
-    margin-right: 50px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
     text-align: center;
  }
