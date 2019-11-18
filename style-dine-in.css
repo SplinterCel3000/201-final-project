@@ -12,8 +12,9 @@
 }
 #header-title {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(110, 109, 109);
 }
-
 #header-button {
 	box-shadow:inset 0px 39px 0px -24px #e67a73;
 	background-color:#e4685d;
@@ -36,42 +37,17 @@
 	position:relative;
 	top:1px;
 }
-
-#navDemo
-{
+#restaurants-display{
+  width: 100%;
   text-align: center;
 }
-
-#band{
-  align-content: center;
+#restaurant-5Point {
+  height: 100px;
+  margin-top: 50px;
+  margin-right: 50px;
 }
-
-.dev-content{
-    font-size: 20px;
-    text-align: center;
-    color: red;
-    /* align-content: center; */
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-.devs{
-  font-style: bold;
-}
-
-.paragraph{
-  display: flex;
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-  ;
-}
-
-#contact{
-  background: lightgray;
-}
-
-.footer{
-  text-align: center;
-  color: red;
-
+#restaurant-CJ {
+  height: 100px;
+  margin-top: 50px;
+  margin-left: 50px;
 }
