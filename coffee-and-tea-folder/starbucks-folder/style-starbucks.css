@@ -14,6 +14,9 @@
   float:right;
 }
 #Starbucks-actual-image-small {
+  height: 100px;
+}
+#Starbucks-actual-image-small {
   border-radius: 40px;
 }
 #header-button {
@@ -66,10 +69,7 @@ article, p {
   margin-right: 20px;
   height: 50px;
 }
-#Starbucks-actual-image-small {
-  height: 150px;
-  width: 150px;
-}
+
 article, li {
   padding-top: 10px;
   padding-bottom: 10px;
