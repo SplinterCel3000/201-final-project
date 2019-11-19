@@ -53,6 +53,7 @@
 
 .devs{
   font-style: bold;
+font-size: 18px;
 }
 
 .paragraph{
@@ -60,8 +61,19 @@
   width: 80%;
   margin: 0 auto;
   text-align: center;
-  ;
 }
+
+.boldname{
+  font-weight: bold;
+
+}
+.paragraphName{
+  display: flex;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
 
 #contact{
   background: lightgray;
