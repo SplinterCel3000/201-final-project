@@ -13,7 +13,7 @@
 #header-image {
   float:right;
 }
-#mcdonalds-actual-image-small {
+#CJs-actual-image-small {
   border-radius: 40px;
 }
 #header-button {
@@ -60,17 +60,17 @@ article, p {
 #top-row {
   display: inline;
 }
-#mcdonalds-menu-items {
+#CJs-menu-items {
   text-align: left;
   list-style: none;
 }
-#mcdonalds-logo-small {
+#CJs-logo-small {
   text-align: right;
   margin-top: 20px;
   margin-right: 20px;
   height: 50px;
 }
-#mcdonalds-actual-image-small {
+#Cjs-actual-image-small {
   height: 150px;
   width: 150px;
 }
