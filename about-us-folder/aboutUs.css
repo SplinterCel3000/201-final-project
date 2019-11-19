@@ -9,6 +9,7 @@
 }
 #header-image {
   float:right;
+  cursor: pointer;
 }
 #header-title {
   text-align: center;
