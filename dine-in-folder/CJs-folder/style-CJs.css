@@ -1,0 +1,80 @@
+#title-logo {
+  cursor: pointer;
+}
+#top-line{
+  display:inline-block;
+  width: 100%;
+}
+#header-button{
+  text-align: left;
+  margin-top: 20px;
+  margin-left:20px;
+}
+#header-image {
+  float:right;
+}
+#CJs-actual-image-small {
+  border-radius: 40px;
+}
+#header-button {
+  
+	border-radius:4px;
+	display:inline-block;
+	cursor: pointer;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+}
+
+#back-button{
+  height: 30px;
+}
+#header-button:active {
+	position:relative;
+	top:1px;
+}
+
+#square-article {
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  top: 60%;
+  height: 600px;
+  width: 600px;
+  margin-top: -300px;
+  margin-left: -300px;
+  
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 30px;
+  background-color: rgb(240, 240, 240);
+  box-shadow: 5px 10px rgb(170, 168, 168);
+}
+article, p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#top-row {
+  display: inline;
+}
+#CJs-menu-items {
+  text-align: left;
+  list-style: none;
+}
+#CJs-logo-small {
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 20px;
+  height: 50px;
+}
+#Cjs-actual-image-small {
+  height: 150px;
+  width: 150px;
+}
+article, li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#middle-row {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

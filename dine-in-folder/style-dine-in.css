@@ -1,0 +1,63 @@
+#title-logo {
+  cursor: pointer;
+}
+#top-line{
+  display:inline-block;
+  width: 100%;
+}
+#header-button{
+  text-align: left;
+  margin-top: 20px;
+  margin-left:20px;
+}
+#header-image {
+  float:right;
+}
+#header-title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(110, 109, 109);
+}
+#header-button {
+  
+	border-radius:4px;
+	display:inline-block;
+	cursor: pointer;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+}
+
+#back-button{
+  height: 30px;
+}
+#header-button:active {
+	position:relative;
+	top:1px;
+}
+#restaurants-display{
+  width: 100%;
+  text-align: center;
+}
+#restaurant-5Point {
+  height: 275px;
+  margin-top: 30px;
+  margin-right: 70px;
+  margin-left: 220px;
+}
+#restaurant-CJ {
+  height: 280px;
+  margin-top: 35px;
+  margin-left: 50px;
+}
+#restaurant-5Point {
+  cursor: pointer;
+}
+#restaurant-CJ {
+  cursor: pointer;
+}
+
+#restaurant1{
+  height: 300px;
+}
