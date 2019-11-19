@@ -1,3 +1,6 @@
+#title-logo {
+  cursor: pointer;
+}
 #top-line{
   display:inline-block;
   width: 100%;
@@ -9,6 +12,9 @@
 }
 #header-image {
   float:right;
+}
+#mcdonalds-actual-image-small {
+  border-radius: 40px;
 }
 #header-button {
 	box-shadow:inset 0px 39px 0px -24px #e67a73;
@@ -45,7 +51,7 @@
   
   border: 1px solid rgb(228, 228, 228);
   border-radius: 30px;
-  background-color: rgb(216, 213, 213);
+  background-color: rgb(240, 240, 240);
   box-shadow: 5px 10px rgb(170, 168, 168);
 }
 article, p {
@@ -71,4 +77,8 @@ article, p {
 article, li {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+#middle-row {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
