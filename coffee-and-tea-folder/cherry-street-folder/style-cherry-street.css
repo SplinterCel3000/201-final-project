@@ -13,26 +13,22 @@
 #header-image {
   float:right;
 }
-#fivepoint-actual-image-small {
+#Cherrystreet-actual-image-small {
   border-radius: 40px;
 }
 #header-button {
-	box-shadow:inset 0px 39px 0px -24px #e67a73;
-	background-color:#e4685d;
+  
 	border-radius:4px;
-	border:1px solid #ffffff;
 	display:inline-block;
 	cursor: pointer;
-	color:#ffffff;
 	font-family:Arial;
 	font-size:15px;
 	padding:6px 15px;
-	text-decoration: none;
-  text-shadow: 0px 1px 0px #b23e35;
-  
+	text-decoration:none;
 }
-#header-button:hover {
-	background-color:#eb675e;
+
+#back-button{
+  height: 30px;
 }
 #header-button:active {
 	position:relative;
@@ -60,17 +56,17 @@ article, p {
 #top-row {
   display: inline;
 }
-#fivepoint-menu-items {
+#Cherrystreet-menu-items {
   text-align: left;
   list-style: none;
 }
-#fivepoint-logo-small {
+#Cherrystreet-logo-small {
   text-align: right;
   margin-top: 20px;
   margin-right: 20px;
   height: 50px;
 }
-#fivepoint-actual-image-small {
+#Cherrystreet-actual-image-small {
   height: 150px;
   width: 150px;
 }
