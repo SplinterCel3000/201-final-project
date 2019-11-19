@@ -1,0 +1,94 @@
+#top-line{
+  display:inline-block;
+  width: 100%;
+}
+#header-button{
+  text-align: left;
+  margin-top: 20px;
+  margin-left:20px;
+}
+#header-image {
+  float:right;
+  cursor: pointer;
+}
+#header-title {
+  text-align: center;
+}
+
+#header-button {
+  
+	border-radius:4px;
+	display:inline-block;
+	cursor: pointer;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+}
+
+#back-button{
+  height: 30px;
+}
+#header-button:active {
+	position:relative;
+	top:1px;
+}
+
+#navDemo
+{
+  text-align: center;
+}
+
+#band{
+  align-content: center;
+}
+
+.dev-content{
+    font-size: 20px;
+    text-align: center;
+    color: red;
+    /* align-content: center; */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.github-image {
+  width: 100px;
+  height: auto;
+  padding: 20px;
+}
+
+.github-image {
+  width: 50px;
+  height: auto;
+}
+
+.devs{
+  font-style: bold;
+font-size: 18px;
+}
+
+.paragraph{
+  text-align: center;
+}
+
+.boldname{
+  font-weight: bold;
+
+}
+.paragraphName{
+  display: flex;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+
+#contact{
+  background: lightgray;
+}
+
+.footer{
+  text-align: center;
+  color: red;
+
+}
