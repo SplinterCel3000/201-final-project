@@ -110,6 +110,10 @@
   text-align: center;
 }
 
+#github-logo{
+  align-content: center;
+}
+
 .bold-name{
   font-weight: bold;
 
@@ -120,10 +124,6 @@
   width: 40%;
   margin: auto;
   text-align: center;
-}
-
-#contact{
-  background: lightgray;
 }
 
 .footer{
