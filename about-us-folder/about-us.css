@@ -110,13 +110,12 @@
   text-align: center;
 }
 
-#github-logo{
+.github-logo{
   align-content: center;
 }
 
 .bold-name{
   font-weight: bold;
-
 }
 
 .paragraph-name{
