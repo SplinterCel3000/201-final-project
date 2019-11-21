@@ -26,6 +26,7 @@ function cherryStreetRender(placeholderTile) {
   var placeholderTile = document.getElementById('restaurant-tile');
   document.getElementById('restaurants-display').innerHTML = '';
   document.getElementById('restaurant-tile').style.visibility = 'visible';
+  document.getElementById('back-button').style.visibility = 'visible';
   placeholderTile.src = cherryStreet.tile;
   document.getElementById('address').innerHTML = 'Directions to 700 1st Ave, Seattle, WA 98104';
   document.getElementById('address').href = 'https://www.google.com/maps/dir/Code+Fellows,+3rd+Avenue,+Seattle,+WA/Cherry+Street+Coffee+House,+1st+Avenue,+Seattle,+WA/@47.6078461,-122.3770165,13z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x5490153758c88a61:0xe3d3fd29c55db518!2m2!1d-122.3518713!2d47.6182477!1m5!1m1!1s0x54906ab00bbf2803:0xe7b4ebaaf86b18ac!2m2!1d-122.3342122!2d47.6027518';
@@ -36,6 +37,7 @@ function starbucksRender(placeholderTile) {
   var placeholderTile = document.getElementById('restaurant-tile');
   document.getElementById('restaurants-display').innerHTML = '';
   document.getElementById('restaurant-tile').style.visibility = 'visible';
+  document.getElementById('back-button').style.visibility = 'visible';
   placeholderTile.src = starbucks.tile;
   document.getElementById('address').innerHTML = 'Directions to 1912 Pike Pl, Seattle, WA 98101';
   document.getElementById('address').href = 'https://www.google.com/maps/dir/Code+Fellows,+3rd+Avenue,+Seattle,+WA/Starbucks,+Pike+Place,+Seattle,+WA/@47.6141377,-122.3552113,15z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x5490153758c88a61:0xe3d3fd29c55db518!2m2!1d-122.3518713!2d47.6182477!1m5!1m1!1s0x54906ab2c538c70b:0x11ebfd9ae22719cf!2m2!1d-122.342583!2d47.610021';
