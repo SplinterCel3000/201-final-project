@@ -17,9 +17,9 @@ var Restaurant = function (name, picture, tile) {
   };
 };
 
-var cherryStreet = new Restaurant('Cherry Street Coffee', './images/Chery Street Coffee', './images-render/mcdonalds-tile.png');
+var cherryStreet = new Restaurant('Cherry Street Coffee', './images/Cherry Street Coffee.png', './images-render/cherry-street-cafe.png');
 restaurantArray.push(cherryStreet);
-var starbucks = new Restaurant('Starbucks', './images/Uptown China.png', './images-render/subway-tile.png');
+var starbucks = new Restaurant('Starbucks', './images/starbucks.png', './images-render/starbucks-tile.png');
 restaurantArray.push(starbucks);
 
 function cherryStreetRender(placeholderTile) {
