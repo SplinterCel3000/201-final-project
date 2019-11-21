@@ -1,3 +1,5 @@
+/************************************* buttons *******************************************/
+
 #top-line{
   display:inline-block;
   width: 100%;
@@ -34,7 +36,12 @@
 	top:1px;
 }
 
-.dev-content{
+/************************************* end of buttons *******************************************/
+
+.motto{
+  font-style: oblique;
+}
+.dev-content {
     font-size: 20px;
     text-align: center;
     color: red;
@@ -76,17 +83,12 @@
   text-align: center;
 }
 
-.footer{
-  text-align: center;
-  color: red;
-}
-
-
 /************************************* PETER *******************************************/
 
 /* entire container, keeps perspective */
 .flip-container {
   perspective: 1000px;
+  text-align: center;
 }
 
   /* flip the pane when hovered */
@@ -109,8 +111,8 @@
  .front, .back {
   backface-visibility: hidden;
   position: absolute;
-  top: 0;
-  left: 5;
+  top: 0px;
+  left: 5px;
 } 
 
 /* front pane, placed above back */
@@ -118,16 +120,21 @@
   z-index: 2;
   transform: rotateY(0deg);
   backface-visibility: hidden;
+  position: absolute;
+  top: 0px;
+  left: 5px;
 }
 
 /* back, initially hidden pane */
 .back {
   transform: rotateY(180deg);
   height: 100px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 
 /************************************* end of PETER *******************************************/
-
 
 /************************************* BRANDON *******************************************/
 
