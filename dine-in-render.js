@@ -26,6 +26,7 @@ function mcdonaldsRender(placeholderTile) {
   var placeholderTile = document.getElementById('restaurant-tile');
   document.getElementById('restaurants-display').innerHTML = '';
   document.getElementById('restaurant-tile').style.visibility = 'visible';
+  document.getElementById('back-button').style.visibility = 'visible';
   placeholderTile.src = mcdonalds.tile;
   document.getElementById('address').innerHTML = 'Directions to CJ\'s Eatery, 2619 1st Ave, Seattle, WA 98121';
   document.getElementById('address').href = 'https://www.google.com/maps/dir/Code+Fellows,+3rd+Avenue,+Seattle,+WA/CJ\'s+Eatery,+2619+1st+Ave,+Seattle,+WA+98121/@47.6169708,-122.3529213,17z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x5490153758c88a61:0xe3d3fd29c55db518!2m2!1d-122.3518713!2d47.6182477!1m5!1m1!1s0x5490154e39ac27b5:0xccfe1e91c51a72fd!2m2!1d-122.350655!2d47.6155748';
@@ -37,6 +38,7 @@ function subwayRender(placeholderTile) {
   var placeholderTile = document.getElementById('restaurant-tile');
   document.getElementById('restaurants-display').innerHTML = '';
   document.getElementById('restaurant-tile').style.visibility = 'visible';
+  document.getElementById('back-button').style.visibility = 'visible';
   placeholderTile.src = subway.tile;
   document.getElementById('address').innerHTML = 'Directions to 5 Point Cafe, 415 Cedar St, Seattle, WA 98119';
   document.getElementById('address').href = 'https://www.google.com/maps/dir/Code+Fellows,+3rd+Avenue,+Seattle,+WA/The+5+Point+Cafe+(Diner+Dive+Bar),+415+Cedar+St,+Seattle,+WA+98119/@47.6178652,-122.354028,16z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x5490153758c88a61:0xe3d3fd29c55db518!2m2!1d-122.3518713!2d47.6182477!1m5!1m1!1s0x5490154f30f8b589:0xe497f55de9f590ca!2m2!1d-122.3474514!2d47.6181058';

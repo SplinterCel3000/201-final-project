@@ -26,6 +26,7 @@ function mcdonaldsRender(placeholderTile) {
   var placeholderTile = document.getElementById('restaurant-tile');
   document.getElementById('restaurants-display').innerHTML = '';
   document.getElementById('restaurant-tile').style.visibility = 'visible';
+  document.getElementById('back-button').style.visibility = 'visible';
   placeholderTile.src = mcdonalds.tile;
   document.getElementById('address').innerHTML = 'Directions to 222 5th Ave N, Seattle, WA 98109';
   document.getElementById('address').href = 'https://www.google.com/maps/dir/Code+Fellows,+3rd+Avenue,+Seattle,+WA/McDonald\'s,+222+5th+Avenue+North,+Seattle,+WA/@47.6195541,-122.3538344,16z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x5490153758c88a61:0xe3d3fd29c55db518!2m2!1d-122.3518713!2d47.6182477!1m5!1m1!1s0x549015461f31627d:0x84e4668893bf8eea!2m2!1d-122.3471369!2d47.6204944';
@@ -37,6 +38,7 @@ function subwayRender(placeholderTile) {
   var placeholderTile = document.getElementById('restaurant-tile');
   document.getElementById('restaurants-display').innerHTML = '';
   document.getElementById('restaurant-tile').style.visibility = 'visible';
+  document.getElementById('back-button').style.visibility = 'visible';
   placeholderTile.src = subway.tile;
   document.getElementById('address').innerHTML = 'Directions to 97 Denny Way, Seattle, WA 98109';
   document.getElementById('address').href = 'https://www.google.com/maps/dir/Code+Fellows,+3rd+Avenue,+Seattle,+WA/subway+near+me/@47.6184019,-122.3558642,17z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x5490153758c88a61:0xe3d3fd29c55db518!2m2!1d-122.3518713!2d47.6182477!1m5!1m1!1s0x549015454ebf4987:0xe1f2c5afbd11bb4f!2m2!1d-122.3554832!2d47.6184421';
