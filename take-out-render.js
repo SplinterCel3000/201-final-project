@@ -17,9 +17,9 @@ var Restaurant = function (name, picture, tile) {
   };
 };
 
-var alBasha = new Restaurant('Al Basha', './images/Al Basha.png', './images-render/mcdonalds-tile.png');
+var alBasha = new Restaurant('Al Basha', './images/Al Basha.png', './images-render/albasha-tile.png');
 restaurantArray.push(alBasha);
-var uptownChina = new Restaurant('Uptown China', './images/Uptown China.png', './images-render/subway-tile.png');
+var uptownChina = new Restaurant('Uptown China', './images/Uptown China.png', './images-render/uptown-china-tile.png');
 restaurantArray.push(uptownChina);
 
 function alBashaRender(placeholderTile) {
