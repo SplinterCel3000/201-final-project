@@ -19,7 +19,6 @@
   color: rgb(110, 109, 109);
 }
 #header-button {
-  
 	border-radius:4px;
 	display:inline-block;
 	cursor: pointer;
@@ -28,7 +27,6 @@
 	padding:6px 15px;
 	text-decoration:none;
 }
-
 #back-button{
   height: 30px;
 }
@@ -40,24 +38,12 @@
   width: 100%;
   text-align: center;
 }
-#restaurant-mcdonalds {
-  height: 100px;
-  margin-top: 50px;
-  margin-right: 50px;
-}
-#restaurant-subway {
-  height: 100px;
-  margin-top: 50px;
-  margin-left: 50px;
-}
-
 #restaurant-tile {
   height: 900px;
   width: 900px;
   visibility: hidden;
   text-align: center;
 }
-
 #address-menu{
   position: absolute;
   top: 650px;

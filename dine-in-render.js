@@ -17,9 +17,9 @@ var Restaurant = function (name, picture, tile) {
   };
 };
 
-var mcdonalds = new Restaurant('McDonalds', './images/logo-mcdonalds.png', './images-render/mcdonalds-tile.png');
+var mcdonalds = new Restaurant('CJs', './images/CJ\'s eatery.png', './images-render/cjs-tile.png');
 restaurantArray.push(mcdonalds);
-var subway = new Restaurant('Subway', './images/logo-subway.png', './images-render/subway-tile.png');
+var subway = new Restaurant('5 Point', './images/5 Point Cafe.png', './images-render/5-point-cafe-tile.png');
 restaurantArray.push(subway);
 
 function mcdonaldsRender(placeholderTile) {
@@ -28,10 +28,10 @@ function mcdonaldsRender(placeholderTile) {
   document.getElementById('restaurant-tile').style.visibility = 'visible';
   document.getElementById('back-button').style.visibility = 'visible';
   placeholderTile.src = mcdonalds.tile;
-  document.getElementById('address').innerHTML = 'Directions to 222 5th Ave N, Seattle, WA 98109';
-  document.getElementById('address').href = 'https://www.google.com/maps/dir/Code+Fellows,+3rd+Avenue,+Seattle,+WA/McDonald\'s,+222+5th+Avenue+North,+Seattle,+WA/@47.6195541,-122.3538344,16z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x5490153758c88a61:0xe3d3fd29c55db518!2m2!1d-122.3518713!2d47.6182477!1m5!1m1!1s0x549015461f31627d:0x84e4668893bf8eea!2m2!1d-122.3471369!2d47.6204944';
-  document.getElementById('menu').innerHTML = 'Full Mcdonalds Menu';
-  document.getElementById('menu').href = 'https://www.mcdonalds.com/us/en-us/full-menu.html?cid=PS:GCM_Ret::Google::Sitelink:See_Our_Full_Menu&gclsrc=aw.ds';
+  document.getElementById('address').innerHTML = 'Directions to CJ\'s Eatery, 2619 1st Ave, Seattle, WA 98121';
+  document.getElementById('address').href = 'https://www.google.com/maps/dir/Code+Fellows,+3rd+Avenue,+Seattle,+WA/CJ\'s+Eatery,+2619+1st+Ave,+Seattle,+WA+98121/@47.6169708,-122.3529213,17z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x5490153758c88a61:0xe3d3fd29c55db518!2m2!1d-122.3518713!2d47.6182477!1m5!1m1!1s0x5490154e39ac27b5:0xccfe1e91c51a72fd!2m2!1d-122.350655!2d47.6155748';
+  document.getElementById('menu').innerHTML = 'Full CJ\'s Menu';
+  document.getElementById('menu').href = 'http://www.cjseateryseattle.com/menu/';
   console.log('mcdonalds clicked');
 }
 function subwayRender(placeholderTile) {
@@ -40,10 +40,10 @@ function subwayRender(placeholderTile) {
   document.getElementById('restaurant-tile').style.visibility = 'visible';
   document.getElementById('back-button').style.visibility = 'visible';
   placeholderTile.src = subway.tile;
-  document.getElementById('address').innerHTML = 'Directions to 97 Denny Way, Seattle, WA 98109';
-  document.getElementById('address').href = 'https://www.google.com/maps/dir/Code+Fellows,+3rd+Avenue,+Seattle,+WA/subway+near+me/@47.6184019,-122.3558642,17z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x5490153758c88a61:0xe3d3fd29c55db518!2m2!1d-122.3518713!2d47.6182477!1m5!1m1!1s0x549015454ebf4987:0xe1f2c5afbd11bb4f!2m2!1d-122.3554832!2d47.6184421';
-  document.getElementById('menu').innerHTML = 'Full Subway Menu';
-  document.getElementById('menu').href = 'https://www.subway.com/en-US/MenuNutrition/Menu';
+  document.getElementById('address').innerHTML = 'Directions to 5 Point Cafe, 415 Cedar St, Seattle, WA 98119';
+  document.getElementById('address').href = 'https://www.google.com/maps/dir/Code+Fellows,+3rd+Avenue,+Seattle,+WA/The+5+Point+Cafe+(Diner+Dive+Bar),+415+Cedar+St,+Seattle,+WA+98119/@47.6178652,-122.354028,16z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x5490153758c88a61:0xe3d3fd29c55db518!2m2!1d-122.3518713!2d47.6182477!1m5!1m1!1s0x5490154f30f8b589:0xe497f55de9f590ca!2m2!1d-122.3474514!2d47.6181058';
+  document.getElementById('menu').innerHTML = 'Full 5 Point Menu';
+  document.getElementById('menu').href = 'https://www.the5pointcafe.com/main-menu';
   console.log('subway clicked');
 }
 
