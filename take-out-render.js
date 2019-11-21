@@ -27,20 +27,20 @@ function alBashaRender(placeholderTile) {
   document.getElementById('restaurants-display').innerHTML = '';
   document.getElementById('restaurant-tile').style.visibility = 'visible';
   placeholderTile.src = alBasha.tile;
-  document.getElementById('address').innerHTML = 'Directions to 222 5th Ave N, Seattle, WA 98109';
-  document.getElementById('address').href = 'https://www.google.com/maps/dir/Code+Fellows,+3rd+Avenue,+Seattle,+WA/McDonald\'s,+222+5th+Avenue+North,+Seattle,+WA/@47.6195541,-122.3538344,16z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x5490153758c88a61:0xe3d3fd29c55db518!2m2!1d-122.3518713!2d47.6182477!1m5!1m1!1s0x549015461f31627d:0x84e4668893bf8eea!2m2!1d-122.3471369!2d47.6204944';
-  document.getElementById('menu').innerHTML = 'Full Mcdonalds Menu';
-  document.getElementById('menu').href = 'https://www.mcdonalds.com/us/en-us/full-menu.html?cid=PS:GCM_Ret::Google::Sitelink:See_Our_Full_Menu&gclsrc=aw.ds';
+  document.getElementById('address').innerHTML = 'Directions to 2300 1st Ave, Seattle, WA 98121';
+  document.getElementById('address').href = 'https://www.google.com/maps/dir/Code+Fellows,+3rd+Avenue,+Seattle,+WA/Al+Basha+Mediterranean+Grill,+1st+Avenue,+Seattle,+WA/@47.6161273,-122.3526215,16z/data=!4m14!4m13!1m5!1m1!1s0x5490153758c88a61:0xe3d3fd29c55db518!2m2!1d-122.3518713!2d47.6182477!1m5!1m1!1s0x5490154dc7b40f6d:0xc8ceb9d5a6d7a6c6!2m2!1d-122.3466513!2d47.6136473!5i2';
+  document.getElementById('menu').innerHTML = 'Full Al Basha Menu';
+  document.getElementById('menu').href = 'http://albashaseattle.com/store/';
 }
 function uptownChinaRender(placeholderTile) {
   var placeholderTile = document.getElementById('restaurant-tile');
   document.getElementById('restaurants-display').innerHTML = '';
   document.getElementById('restaurant-tile').style.visibility = 'visible';
   placeholderTile.src = uptownChina.tile;
-  document.getElementById('address').innerHTML = 'Directions to 97 Denny Way, Seattle, WA 98109';
-  document.getElementById('address').href = 'https://www.google.com/maps/dir/Code+Fellows,+3rd+Avenue,+Seattle,+WA/subway+near+me/@47.6184019,-122.3558642,17z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x5490153758c88a61:0xe3d3fd29c55db518!2m2!1d-122.3518713!2d47.6182477!1m5!1m1!1s0x549015454ebf4987:0xe1f2c5afbd11bb4f!2m2!1d-122.3554832!2d47.6184421';
-  document.getElementById('menu').innerHTML = 'Full Subway Menu';
-  document.getElementById('menu').href = 'https://www.subway.com/en-US/MenuNutrition/Menu';
+  document.getElementById('address').innerHTML = 'Directions to 200 Queen Anne Ave N, Seattle, WA 98109';
+  document.getElementById('address').href = 'https://www.google.com/maps/dir/Code+Fellows,+3rd+Avenue,+Seattle,+WA/Uptown+China+Restaurant,+200+Queen+Anne+Ave+N,+Seattle,+WA+98109/@47.6190917,-122.3564728,17z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x5490153758c88a61:0xe3d3fd29c55db518!2m2!1d-122.3518713!2d47.6182477!1m5!1m1!1s0x54901544d88280e9:0x7adfe4223e64e9d!2m2!1d-122.3565412!2d47.6199276';
+  document.getElementById('menu').innerHTML = 'Full Uptown China Menu';
+  document.getElementById('menu').href = 'https://www.uptown-china.com/';
 }
 
 
