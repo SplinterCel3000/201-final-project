@@ -25,46 +25,6 @@
 	text-decoration:none;
 }
 
-/* entire container, keeps perspective */
-.flip-container {
-  perspective: 1000px;
-}
-  /* flip the pane when hovered */
-.flip-container:hover .flipper, .flip-container.hover .flipper {
-  transform: rotateY(180deg);
-}
-
-.flip-container, .front, .back {
-  max-height: 10px;
-}
-
-/* flip speed goes here */
-.flipper {
-  transition: 0.6s;
-  transform-style: preserve-3d;
-  position: relative;
-}
-
-/* hide back of pane during swap */
- .front, .back {
-  backface-visibility: hidden;
-  position: absolute;
-  top: 0;
-  left: 5;
-} 
-
-/* front pane, placed above back */
-.front {
-  z-index: 2;
-  transform: rotateY(0deg);
-  backface-visibility: hidden;
-}
-
-/* back, initially hidden pane */
-.back {
-  transform: rotateY(180deg);
-  height: 100px;
-}
 
 #back-button{
   height: 30px;
@@ -77,10 +37,6 @@
 
 #navDemo {
   text-align: center;
-}
-
-#band{
-  align-content: center;
 }
 
 .dev-content{
@@ -130,6 +86,56 @@
   color: red;
 }
 
+
+/************************************* PETER *******************************************/
+
+/* entire container, keeps perspective */
+.flip-container {
+  perspective: 1000px;
+}
+
+  /* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+  max-height: 10px;
+}
+
+/* flip speed goes here */
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+/* hide back of pane during swap */
+ .front, .back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 5;
+} 
+
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+  transform: rotateY(0deg);
+  backface-visibility: hidden;
+}
+
+/* back, initially hidden pane */
+.back {
+  transform: rotateY(180deg);
+  height: 100px;
+}
+
+/************************************* end of PETER *******************************************/
+
+
+/************************************* BRANDON *******************************************/
+
 /* entire container, keeps perspective */
 .flip-containerb {
   perspective: 1000px;
@@ -177,6 +183,10 @@
   top: 400px;
   right: 400px;
 }
+/************************************* end of BRANDON *******************************************/
+
+
+/************************************* SHINGO *******************************************/
 
 /* entire container, keeps perspective */
 .flip-container {
@@ -225,6 +235,10 @@
   top: 800px;
   right: 400px;
 }
+/************************************* end of SHINGO *******************************************/
+
+
+/************************************* SAM *******************************************/
 
 /* entire container, keeps perspective */
 .flip-container {
@@ -272,3 +286,5 @@
   top: 1200px;
   right: 400px;
 }
+
+/************************************* end of SAM *******************************************/
