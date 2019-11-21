@@ -1,7 +1,5 @@
 var restaurantArray = [];
 var placeholderRefArray = [];
-var placeholderTile = document.getElementById('restaurant-tile');
-var restaurantsDisplay = document.getElementById('restaurants-display');
 
 
 
