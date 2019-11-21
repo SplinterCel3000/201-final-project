@@ -82,13 +82,11 @@
   margin: auto;
   text-align: center;
 }
-
-/************************************* PETER *******************************************/
+/************************************* FLIPPING ANIMATION *******************************************/
 
 /* entire container, keeps perspective */
 .flip-container {
   perspective: 1000px;
-  text-align: center;
 }
 
   /* flip the pane when hovered */
@@ -106,13 +104,17 @@
   transform-style: preserve-3d;
   position: relative;
 }
+/************************************* end of FLIPPING ANIMATION *******************************************/
+
+/************************************* PETER *******************************************/
+
 
 /* hide back of pane during swap */
  .front, .back {
   backface-visibility: hidden;
   position: absolute;
   top: 0px;
-  left: 5px;
+  left: 500px;
 } 
 
 /* front pane, placed above back */
@@ -122,49 +124,28 @@
   backface-visibility: hidden;
   position: absolute;
   top: 0px;
-  left: 5px;
+  left: 500px;
 }
 
 /* back, initially hidden pane */
-.back {
+ .back {
   transform: rotateY(180deg);
   height: 100px;
   position: absolute;
   top: 0px;
-  right: 0px;
-}
+  right: 500px;
+} 
 
 /************************************* end of PETER *******************************************/
 
 /************************************* BRANDON *******************************************/
-
-/* entire container, keeps perspective */
-.flip-containerb {
-  perspective: 1000px;
-}
-
-  /* flip the pane when hovered */
-.flip-containerb:hover .flipperb, .flip-containerb.hover .flipperb {
-  transform: rotateY(180deg);
-}
-
-.flip-containerb, .frontb, .backb {
-  max-height: 10px;
-}
-
-/* flip speed goes here */
-.flipperb {
-  transition: 0.6s;
-  transform-style: preserve-3d;
-  position: relative;
-}
 
 /* hide back of pane during swap */
  .frontb, .backb {
   backface-visibility: hidden;
   position: absolute;
   top: 400px;
-  left: 450px;
+  left: 500px;
 } 
 
 /* front pane, placed above back */
@@ -174,7 +155,7 @@
   backface-visibility: hidden;
   position: absolute;
   top: 400px;
-  left: 450px;
+  left: 500px;
 }
 
 /* back, initially hidden pane */
@@ -190,33 +171,12 @@
 
 /************************************* SHINGO *******************************************/
 
-/* entire container, keeps perspective */
-.flip-container {
-  perspective: 1000px;
-}
-
-  /* flip the pane when hovered */
-.flip-containery:hover .flippery, .flip-containery.hover .flippery {
-  transform: rotateY(180deg);
-}
-
-.flip-containery, .fronty, .backy {
-  max-height: 10px;
-}
-
-/* flip speed goes here */
-.flippery {
-  transition: 0.6s;
-  transform-style: preserve-3d;
-  position: relative;
-}
-
 /* hide back of pane during swap */
  .fronty, .backy {
   backface-visibility: hidden;
   position: absolute;
   top: 400px;
-  left: 450px;
+  left: 500px;
 } 
 
 /* front pane, placed above back */
@@ -226,7 +186,7 @@
   backface-visibility: hidden;
   position: absolute;
   top: 800px;
-  left: 450px;  
+  left: 500px;  
 }
 
 /* back, initially hidden pane */
@@ -242,32 +202,12 @@
 
 /************************************* SAM *******************************************/
 
-/* entire container, keeps perspective */
-.flip-container {
-  perspective: 1000px;
-}
-  /* flip the pane when hovered */
-  .flip-containers:hover .flippers, .flip-containers.hover .flippers {
-  transform: rotateY(180deg);
-}
-
-.flip-containers, .fronts, .backs {
-  max-height: 10px;
-}
-
-/* flip speed goes here */
-.flippers {
-  transition: 0.6s;
-  transform-style: preserve-3d;
-  position: relative;
-}
-
 /* hide back of pane during swap */
  .fronts, .backs {
   backface-visibility: hidden;
   position: absolute;
   top: 400px;
-  left: 450px;
+  left: 500px;
 } 
 
 /* front pane, placed above back */
@@ -277,7 +217,7 @@
   backface-visibility: hidden;
   position: absolute;
   top: 1200px;
-  left: 450px;
+  left: 500px;
 }
 
 /* back, initially hidden pane */
