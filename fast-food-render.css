@@ -52,8 +52,8 @@
 }
 
 #restaurant-tile {
-  text-align: center;
   height: 900px;
   width: 900px;
   visibility: hidden;
+  text-align: center;
 }
