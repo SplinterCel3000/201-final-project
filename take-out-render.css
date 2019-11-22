@@ -38,6 +38,18 @@
   width: 100%;
   text-align: center;
 }
+
+#restaurant0 {
+  height: 100px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+#restaurant1 {
+  height: 100px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
 #restaurant-tile {
   height: 900px;
   width: 900px;
